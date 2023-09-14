@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <main class="page">
+      <section class="page__main">
+        <div class="page-main__container">
+          <h1>Learn to code by watching others</h1>
+
+          <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+            but understanding how developers think is invaluable.</p>
+        </div>
+      </section>
+
+
+      <section class="page__form">
+        <div class="page-form__container">
+          <div class="page__form-promo">
+            <p class="form-promo__text"><span class="form-promo__span">Try it free 7 days</span> then $20/mo. thereafter
+            </p>
+          </div>
+          <div class="form">
+            <form action="/action_page.php">
+
+              <input type="text" id="fname" name="fname" placeholder="First Name"><br>
+              <img src="/images/icon-error.svg" alt="Error Icon" class="error name-error__icon" id="error-icon">
+              <p class="error error-text" id="error-Text">First name cannot be empty</p>
+              <p class="error success-text" id="success-text">Sucsess!</p>
+
+              <input type="text" id="lname" name="lname" placeholder="Last Name"><br>
+              <img src="/images/icon-error.svg" alt="Error Icon" class="error surname-error__icon"
+                id="error-icon__surname">
+              <p class="error second__error-text" id="second__error-Text">Last name cannot be empty</p>
+              <p class="error success-text" id="surname_success-text">Sucsess!</p>
+
+              <input type="email" id="email" name="email" placeholder="Email Address" class="email"><br>
+              <img src="/images/icon-error.svg" alt="Error Icon" class="error email-error__icon" id="error-icon__email">
+              <p class="error third__error-text" id="third__error-text">Email should be valid</p>
+              <p class="error success-text" id="email_success-text">Sucsess!</p>
+
+              <input type="password" id="password" name="password" placeholder="Password"><br>
+              <img src="/images/icon-error.svg" alt="Error Icon" class="error password-error__icon"
+                id="error-icon__password">
+              <p class="error fourth__error-text" id="fourth__error-text">Password should be valid</p>
+              <p class="error success-text" id="password_success-text">Sucsess!</p>
+
+              <button type="button" class="submit__btn" id="submit__btn">Claim your free trial</button>
+
+              <p class="form__terms">
+                By clicking the button, you are agreeing to our <span class="form__span">Terms and Services</span>
+              </p>
+            </form>
+          </div>
+
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Olena Shevchenko</a>.
+      </p>
+    </footer>
+  </div>
+
+  <script src="/script/script.js"></script>
+</body>
+
+</html>
