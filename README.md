@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/olenahelena/Intro_component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://admirable-taiyaki-26d141.netlify.app/)
 
 
 ### Built with
